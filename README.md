@@ -2,13 +2,14 @@
 
 ## Overview
 Python program was built ot make a car-model a self-driving technology. Uses extensive Image processing(opencv) to detected lane edges. It uses **ssd_mobilenet_v1_coco_11_06_2017** model to classify the obstacle on its path and avoid collision by steering clear through it. 
+
 **_NOTE_**: This code is developed for campus road (Nirma University). So it needs to adapted according to the road condition.
 
 ## Pre-requisites
 * Cuda 9.0
 * Cudnn 7.0.5
 * Tensorflow 1.5 or greater
-* Download: Tensorflow-models repository(https://github.com/tensorflow/models)
+* Download: Tensorflow-models repository [Github](https://github.com/tensorflow/models)
 * Arduino IDE
 * pyfirmata.whl
 
@@ -20,14 +21,14 @@ Python program was built ot make a car-model a self-driving technology. Uses ext
 * Open Arduino IDE and load **standard-firmata** and dump it in arduino. 
 
 **_NOTE_**: 
-* self-driving_with_arduino_interface.py will require an arduino connected to laptop to run successfullly. Without arduino           connected, it will not run and throw an error.
-* self_driving_without_arduino_interface.py will run without any hardware connected. It will pop up camera point of view, classify and generate steering output.
+* _self-driving_with_arduino_interface.py_ will require an arduino connected to laptop to run successfullly. Without arduino           connected, it will not run and throw an error.
+* _self_driving_without_arduino_interface.py_ will run without any hardware connected. It will pop up camera point of view, classify and generate steering output.
 
 ## Hardware
-Camera_: any 2D camera
-IR sensors: Short Range(30cm to 150cm) and Long Range(150cm to 550cm)
-Arduino Mega (for parsing the actuating signals to rear motors and steering motor)
-GPU (used the laptop with inbuilt Nvidia GPU-940MX with computing capability-5.0) : required for processing
+* Camera_: any 2D camera
+* IR sensors: Short Range(30cm to 150cm) and Long Range(150cm to 550cm)
+* Arduino Mega (for parsing the actuating signals to rear motors and steering motor)
+* GPU (used the laptop with inbuilt Nvidia GPU-940MX with computing capability-5.0) : required for processing
 
 ## Description
 ### Camera Output Screen
