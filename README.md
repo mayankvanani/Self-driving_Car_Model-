@@ -25,7 +25,7 @@ Python program was built ot make a car-model a self-driving technology. Uses ext
 * _self_driving_without_arduino_interface.py_ will run without any hardware connected. It will pop up camera point of view, classify and generate steering output.
 
 ## Hardware
-* Camera_: any 2D camera
+* Camera: any 2D camera
 * IR sensors: Short Range(30cm to 150cm) and Long Range(150cm to 550cm)
 * Arduino Mega (for parsing the actuating signals to rear motors and steering motor)
 * GPU (used the laptop with inbuilt Nvidia GPU-940MX with computing capability-5.0) : required for processing
@@ -38,7 +38,7 @@ It contains various lines markers in blue and red. Red markers identify the left
 Adaptive Cruise Control is achieved through IR sensors. The front zone was divided into various segments and speed in each zone was defined by mathematical equation obtained by calibrating the IR sensor value and generateing PWM accordingly to manipulate speed. The value is of both the sensors is checked in each iteration and speed is updated continuously.The update of speed is made gradual through code optimisation.
 
 ### Obstacle Detection and Avoidance.
-SSD_mobilenet_coco (Commom Object in COntest) is the model used ot detect and classify object and based on the boxes drawn by the classifier, the relative distance is calculated according to the frame. Based upon its size, the algorithm decides wheather the car can steer pass it or it has to stop. Reason behind choosing this model is that its compulationaly less complex and hence frames obtained is 15fps.
+SSD_mobilenet_coco _(**C**ommom **O**bject in **CO**ntest)_ is the model used ot detect and classify object and based on the boxes drawn by the classifier, the relative distance is calculated according to the frame. Based upon its size, the algorithm decides wheather the car can steer pass it or it has to stop. Reason behind choosing this model is that its compulationaly less complex and hence frames obtained is 15fps.
 
 ### ALGORITHM
 1. Check the short range IR value
