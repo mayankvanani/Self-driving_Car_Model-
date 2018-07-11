@@ -9,7 +9,7 @@ Python program was built ot make a car-model a self-driving technology. Uses ext
 * Cuda 9.0
 * Cudnn 7.0.5
 * Tensorflow 1.5 or greater
-* Download: Tensorflow-models repository [Github](https://github.com/tensorflow/models)
+* Download: Tensorflow-models repository - [Github](https://github.com/tensorflow/models)
 * Arduino IDE
 * pyfirmata.whl
 
@@ -38,7 +38,7 @@ It contains various lines markers in blue and red. Red markers identify the left
 Adaptive Cruise Control is achieved through IR sensors. The front zone was divided into various segments and speed in each zone was defined by mathematical equation obtained by calibrating the IR sensor value and generateing PWM accordingly to manipulate speed. The value is of both the sensors is checked in each iteration and speed is updated continuously.The update of speed is made gradual through code optimisation.
 
 ### Obstacle Detection and Avoidance.
-SSD_mobilenet_coco _(**C**ommom **O**bject in **CO**ntest)_ is the model used ot detect and classify object and based on the boxes drawn by the classifier, the relative distance is calculated according to the frame. Based upon its size, the algorithm decides wheather the car can steer pass it or it has to stop. Reason behind choosing this model is that its compulationaly less complex and hence frames obtained is 15fps.
+SSD_mobilenet_COCO _(**C**ommom **O**bject in **CO**ntest)_ is the model used ot detect and classify object and based on the boxes drawn by the classifier, the relative distance is calculated according to the frame. Based upon its size, the algorithm decides wheather the car can steer pass it or it has to stop. Reason behind choosing this model is that its compulationaly less complex and hence frames obtained is 15fps.
 
 ### ALGORITHM
 1. Check the short range IR value
