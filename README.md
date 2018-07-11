@@ -5,12 +5,12 @@ Python program was built ot make a car-model a self-driving technology. Uses ext
 NOTE: This code is developed for campus road (Nirma University). So it needs to adapted according to the road condition.
 
 ## Pre-requisites
-Cuda 9.0
-Cudnn 7.0.5
-Tensorflow 1.5 or greater
-Download: Tensorflow-models repository(https://github.com/tensorflow/models)
-Arduino IDE
-pyfirmata.whl
+*Cuda 9.0
+*Cudnn 7.0.5
+*Tensorflow 1.5 or greater
+*Download: Tensorflow-models repository(https://github.com/tensorflow/models)
+*Arduino IDE
+*pyfirmata.whl
 
 ## User Manual
 copy the listed below python files to 'models/research/object_detection/'
