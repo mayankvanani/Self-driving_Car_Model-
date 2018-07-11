@@ -5,19 +5,19 @@ Python program was built ot make a car-model a self-driving technology. Uses ext
 NOTE: This code is developed for campus road (Nirma University). So it needs to adapted according to the road condition.
 
 ## Pre-requisites
-*Cuda 9.0
-*Cudnn 7.0.5
-*Tensorflow 1.5 or greater
-*Download: Tensorflow-models repository(https://github.com/tensorflow/models)
-*Arduino IDE
-*pyfirmata.whl
+* Cuda 9.0
+* Cudnn 7.0.5
+* Tensorflow 1.5 or greater
+* Download: Tensorflow-models repository(https://github.com/tensorflow/models)
+* Arduino IDE
+* pyfirmata.whl
 
 ## User Manual
-copy the listed below python files to 'models/research/object_detection/'
+* copy the listed below python files to 'models/research/object_detection/'
 self-driving_with_arduino_interface.py
 self_driving_without_arduino_interface.py
 
-Open Arduino IDE and load 'standard-firmata' and dump it in arduino. 
+* Open Arduino IDE and load 'standard-firmata' and dump it in arduino. 
 
 NOTE: 
 self-driving_with_arduino_interface.py will require an arduino connected to laptop to run successfullly. Without arduino          connected, it will not run and throw an error.
