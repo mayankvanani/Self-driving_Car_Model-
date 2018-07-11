@@ -9,7 +9,7 @@ Python program was built ot make a car-model a self-driving technology. Uses ext
 * Cuda 9.0
 * Cudnn 7.0.5
 * Tensorflow 1.5 or greater
-* Download: Tensorflow-models repository - [Github](https://github.com/tensorflow/models)
+* Download: [Github](https://github.com/tensorflow/models) Tensorflow-models repository 
 * Arduino IDE
 * pyfirmata.whl
 
