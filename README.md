@@ -14,8 +14,8 @@ NOTE: This code is developed for campus road (Nirma University). So it needs to 
 
 ## User Manual
 * copy the listed below python files to 'models/research/object_detection/'
-self-driving_with_arduino_interface.py
-self_driving_without_arduino_interface.py
+  - self-driving_with_arduino_interface.py
+  - self_driving_without_arduino_interface.py
 
 * Open Arduino IDE and load 'standard-firmata' and dump it in arduino. 
 
